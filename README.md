@@ -3,9 +3,9 @@ Botnoi Hotel Reception is an AI ecosystem consist of; (i) a reception chatbot on
 
 How to run Botnoi-Hotel-APP
 
-1.install jDK & android studio &react-native watchman brew or choco and add envioment path 
+1.Install JDK & android studio &react-native watchman brew or choco and add envioment path 
 
-2.start emulator or developer mode on android phone connect yours phone with usb with command $adb devices
+2.Start emulator or developer mode on android phone connect yours phone with usb with command $adb devices
 
 3.$npm start and 
 
