@@ -8,6 +8,5 @@ How to run
 
 3.$npm start 
 
-
-4. 2nd terminal $react-native run-android
+4.2nd terminal $react-native run-android
 
