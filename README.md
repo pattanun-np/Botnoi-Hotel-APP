@@ -14,7 +14,7 @@ How to run Botnoi-Hotel-APP
 
 2.Start emulator or developer mode on android phone connect yours phone with usb with command $adb devices
 
-3.$npm start and 
+3.$npm start
 
 4.2nd terminal $react-native run-android
 *******************************************************************************************************************************************
