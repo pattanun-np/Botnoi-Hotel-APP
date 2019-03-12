@@ -1,6 +1,7 @@
-Botnoi-Hotel-APP
 
-How to run 
+Botnoi Hotel Reception is an AI ecosystem consist of; (i) a reception chatbot on personal mobile phones, with the ability to make a booking, facilitate the check-in, and retrieve information of the hotels and surrounding (ii) IOT that can be controlled by the chatbot, such as the chatbot can open digital doors once authentication through face recognition has been provided.
+
+How to run Botnoi-Hotel-APP
 
 1.install jDK & android studio &react-native watchman brew or choco and add envioment path 
 
