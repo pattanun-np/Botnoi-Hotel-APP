@@ -1,9 +1,12 @@
+**BOTNOI HOTEL RECEPTION PROTOTYPE VERSION**
 
-Botnoi Hotel Reception is an AI ecosystem consist of; 
+Botnoi Hotel Reception is an AI ecosystem consist of
 
-(i) a reception chatbot on personal mobile phones, with the ability to make a booking, facilitate the check-in, and retrieve information of the hotels and surrounding 
+  (i) a reception chatbot on personal mobile phones, with the ability to make a booking, facilitate the check-in, and retrieve information  of the hotels and surrounding 
 
-(ii) IOT that can be controlled by the chatbot, such as the chatbot can open digital doors once authentication through face recognition has been provided.
+  (ii) IOT that can be controlled by the chatbot, such as the chatbot can open digital doors once authentication through face recognition   has been provided.
+*******************************************************************************************************************************************
+**IT ONLY PROTOTYPE VERSION FULL STILL IN DEVELOPING PROCESS**
 
 How to run Botnoi-Hotel-APP
 
@@ -14,4 +17,4 @@ How to run Botnoi-Hotel-APP
 3.$npm start and 
 
 4.2nd terminal $react-native run-android
-
+*******************************************************************************************************************************************
