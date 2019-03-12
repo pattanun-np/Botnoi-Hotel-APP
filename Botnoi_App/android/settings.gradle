@@ -1,0 +1,3 @@
+rootProject.name = 'Botnoi_App'
+
+include ':app'
