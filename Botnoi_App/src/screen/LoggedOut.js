@@ -12,100 +12,91 @@ import {
     TouchableHighlight,
     ScrollView
 } from 'react-native';
-import bg from '../Images/2174.png'
+
+import bg from '../Images/176.png'
 export default class LoggedOut extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            fullname: 'null',
             user: 'null',
             email: 'null',
             password: 'null'
         };
     }
-    // onChangeUserName(){
-    //     this.setState({
-    //       Name:e.target.value
-    //     })
-    //   }
-    // onChangeEmail(e){
-    //     this.setState({
-    //       Email:e.target.value
-    //     })
-    //   }
-    // onChangePassword(e){
-    //     this.setState({
-    //       Password:e.target.value
-    //     });
-    //   }
     render() {
         return (
             <ImageBackground source={bg} style={styles.wrapper}>
                 <View style={styles.Login}>
                     <Image source={require('../Images/botnoi.png')} style={styles.Image}></Image>
-                    <Text h1 style={styles.welcome}>
+                    <Text style={styles.welcome}>
                         Welcome To Botnoi Hotel
+                    </Text>
+                    <Text style={styles.signup}>
+                        Please SignUp For Next Step!
                     </Text>
                     <TextInput
                         placeholder="Fullname"
+                        placeholderTextColor={'#b4e0e5'}
                         style={{
                         height: 40,
                         width: 250,
                         marginTop: 10,
-                        marginLeft: 30,
-                        marginBottom:20,
-                        color: 'grey',
+                        marginLeft: 10,
+                        marginBottom: 20,
+                        fontWeight: '600',
                         borderColor: '#b4e0e5',
                         borderWidth: 1,
                         borderRadius: 20
                     }}
-                        // onChange={this.onChangeName}
-                        />
+                        onChangeText={(fullname) => this.setState({fullname})}/>
                     <TextInput
                         placeholder="Username"
+                        placeholderTextColor={'#b4e0e5'}
                         style={{
                         height: 40,
                         width: 250,
-                        marginBottom:20,
-                        marginLeft: 30,
-                        color: 'grey',
+                        marginBottom: 20,
+                        marginLeft: 10,
+                        fontWeight: '600',
                         borderColor: '#b4e0e5',
                         borderWidth: 1,
                         borderRadius: 20
                     }}
-                        // onChange={this.onChangeName}
-                        />
+                        onChangeText={(username) => this.setState({username})}/>
                     <TextInput
                         placeholder="Email"
+                        placeholderTextColor={'#b4e0e5'}
                         style={{
                         height: 40,
                         width: 250,
-                        marginLeft: 30,
-                        marginBottom:20,
-                        color: 'grey',
+                        marginLeft: 10,
+                        marginBottom: 20,
+                        fontWeight: '600',
                         borderColor: '#b4e0e5',
                         borderWidth: 1,
                         borderRadius: 20
                     }}
-                    // onChange={this.onChangeEmail} 
-                    />
+                        onChangeText={(email) => this.setState({email})}/>
 
                     <TextInput
                         placeholder="Password"
+                        placeholderTextColor={'#b4e0e5'}
                         secureTextEntry={true}
                         style={{
                         height: 40,
                         width: 250,
-                        marginLeft: 30,
+                        marginLeft: 10,
                         marginBottom: 30,
-                        color: 'grey',
+                        fontWeight: '600',
                         borderColor: '#b4e0e5',
                         borderWidth: 1,
                         borderRadius: 20
                     }}
-                    // onChange={this.onChangePassword}
-                     />
+                        onChangeText={(password) => this.setState({password})}/>
                     <Button title="Submit" color="#ffd0dc" style={styles.button}/>
-
+                    <Text style={styles.support}>Powered By Botnoi NLP & AWS
+                    </Text>
                 </View>
             </ImageBackground>
         );
@@ -119,13 +110,12 @@ const styles = StyleSheet.create({
         marginTop: 20,
         alignItems: 'center',
         width: 100,
-        height: 150,
-             
+        height: 150
     },
     Login: {
         margin: 30,
         alignItems: 'center',
-        height: 550,
+        height: 565,
         backgroundColor: 'white',
         borderRadius: 30
 
@@ -135,12 +125,27 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         textShadowColor: 'grey',
         color: 'grey',
-        fontWeight: '400',
+        fontWeight: '600',
+        margin: 10
+    },
+    signup: {
+        fontSize: 10,
+        alignItems: 'center',
+        textShadowColor: 'grey',
+        color: 'grey',
+        fontWeight: '500'
+    },
+    support: {
+        fontSize: 9,
+        alignItems: 'center',
+        textShadowColor: 'grey',
+        color: 'grey',
+        fontWeight: '300',
         margin: 10
     },
     button: {
         marginTop: 10,
         borderRadius: 10,
-        alignItems: 'center',
+        alignItems: 'center'
     }
 })
