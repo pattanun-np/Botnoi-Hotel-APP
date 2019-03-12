@@ -6,7 +6,7 @@ How to run
 
 2.start emulator or developer mode on android phone connect yours phone with usb with command $adb devices
 
-3.$npm start 
+3.$npm start and 
 
 4.2nd terminal $react-native run-android
 
