@@ -17,4 +17,7 @@ How to run Botnoi-Hotel-APP
 3.$npm start
 
 4.2nd terminal $react-native run-android
+
+5.For using Face recognition API ,Please setting and deploy python environment webhook code from faceRecogAPI.
+	5.1 For face recognition,post RGB image file to https://{hostname}/faceRecog
 *******************************************************************************************************************************************
