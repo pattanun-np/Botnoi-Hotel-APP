@@ -1,0 +1,11 @@
+flask==1.0.2
+jinja2==2.10
+werkzeug==0.14.1
+gunicorn==19.9.0
+requests==2.19.0
+flask_restful==0.3.6
+numpy ==1.14.5
+face_recognition==1.2.3
+PIL
+io
+
