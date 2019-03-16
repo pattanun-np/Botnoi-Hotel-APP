@@ -22,5 +22,6 @@ How to run Botnoi-Hotel-APP
 
 5.1 For face recognition,post RGB image file to https://{hostname}/faceRecog
 *******************************************************************************************************************************************
-**Demo Screen**
+
 ![Demo Login](https://github.com/pattaunNP/Botnoi-Hotel-APP/blob/master/Screenshot_2019-03-17-01-41-39-215_com.botnoi_app.png)
+**Demo Screen**
