@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -40,6 +39,26 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		764B33B996134E32B4AF18DF /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EB4AD3ED344E308FC379B3 /* libRNI18n.a */; };
+		E7CCABEF2606420CBC8FE4C1 /* libRNI18n-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6CA2174CF4176BACF9255 /* libRNI18n-tvOS.a */; };
+		060EC1A31C674D23B560893F /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EA1CA602EE3407AADA3EBCD /* Kanit-Black.ttf */; };
+		550C394CDA56494CBDE287C8 /* Kanit-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAFDCF4C0B4041B683E64FE7 /* Kanit-BlackItalic.ttf */; };
+		1C53DAFF0C474E0A8F84F3DD /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 863EFE67FE354C9EB33AEA72 /* Kanit-Bold.ttf */; };
+		65E7D88385454A54A1E09334 /* Kanit-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC50A744014CA4A77EC3DD /* Kanit-BoldItalic.ttf */; };
+		2D86F0F72B7449139A0106A9 /* Kanit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA07B6812B2F4B80B8F6301C /* Kanit-ExtraBold.ttf */; };
+		82B5C5A268DA4F23A2A3F36E /* Kanit-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C387CA8BB14945758EC2E516 /* Kanit-ExtraBoldItalic.ttf */; };
+		0DDB15633E304FACB358CF6D /* Kanit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C644A070145A40448B9278F6 /* Kanit-ExtraLight.ttf */; };
+		C1B942FDFD424617AE8A13FD /* Kanit-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1C89B4854B42AE86710180 /* Kanit-ExtraLightItalic.ttf */; };
+		6CAA5B8684414F259D401C87 /* Kanit-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3246A665D1C4489492229F13 /* Kanit-Italic.ttf */; };
+		D4FCBDF9ED474886B17352DC /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 663FF6543A0F439AA8360AF2 /* Kanit-Light.ttf */; };
+		7FDE7D313ADE4435A5F390ED /* Kanit-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A17961B6A581456083119E77 /* Kanit-LightItalic.ttf */; };
+		E01F4E3FF88F456FB2B0260D /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 352DC3D569D0431F8708B9FA /* Kanit-Medium.ttf */; };
+		70B26E3945C6416DA463B3CC /* Kanit-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8092E40CD85468E8C768163 /* Kanit-MediumItalic.ttf */; };
+		E54A06B28AD04F148125927B /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEA588F69630472DA6D893FF /* Kanit-Regular.ttf */; };
+		F4BE0AE2AD6E4EACAE1633AC /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516C0585964E4DF5A3537110 /* Kanit-SemiBold.ttf */; };
+		D586DA457A89407C973CDC10 /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5A09301A674E61BA427566 /* Kanit-SemiBoldItalic.ttf */; };
+		FFC4D3C329B741D79D909023 /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6263A4EF223540FC90917217 /* Kanit-Thin.ttf */; };
+		74C83796E9B44CF4A284F91C /* Kanit-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8CB6DAD91C848A6A5730773 /* Kanit-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +366,27 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		6D0253B91106430996B7E954 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		20EB4AD3ED344E308FC379B3 /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		35E6CA2174CF4176BACF9255 /* libRNI18n-tvOS.a */ = {isa = PBXFileReference; name = "libRNI18n-tvOS.a"; path = "libRNI18n-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		1EA1CA602EE3407AADA3EBCD /* Kanit-Black.ttf */ = {isa = PBXFileReference; name = "Kanit-Black.ttf"; path = "../assets/fonts/Kanit-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAFDCF4C0B4041B683E64FE7 /* Kanit-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-BlackItalic.ttf"; path = "../assets/fonts/Kanit-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		863EFE67FE354C9EB33AEA72 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; name = "Kanit-Bold.ttf"; path = "../assets/fonts/Kanit-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DCC50A744014CA4A77EC3DD /* Kanit-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-BoldItalic.ttf"; path = "../assets/fonts/Kanit-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA07B6812B2F4B80B8F6301C /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Kanit-ExtraBold.ttf"; path = "../assets/fonts/Kanit-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C387CA8BB14945758EC2E516 /* Kanit-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-ExtraBoldItalic.ttf"; path = "../assets/fonts/Kanit-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C644A070145A40448B9278F6 /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Kanit-ExtraLight.ttf"; path = "../assets/fonts/Kanit-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AD1C89B4854B42AE86710180 /* Kanit-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-ExtraLightItalic.ttf"; path = "../assets/fonts/Kanit-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3246A665D1C4489492229F13 /* Kanit-Italic.ttf */ = {isa = PBXFileReference; name = "Kanit-Italic.ttf"; path = "../assets/fonts/Kanit-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		663FF6543A0F439AA8360AF2 /* Kanit-Light.ttf */ = {isa = PBXFileReference; name = "Kanit-Light.ttf"; path = "../assets/fonts/Kanit-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A17961B6A581456083119E77 /* Kanit-LightItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-LightItalic.ttf"; path = "../assets/fonts/Kanit-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		352DC3D569D0431F8708B9FA /* Kanit-Medium.ttf */ = {isa = PBXFileReference; name = "Kanit-Medium.ttf"; path = "../assets/fonts/Kanit-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8092E40CD85468E8C768163 /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-MediumItalic.ttf"; path = "../assets/fonts/Kanit-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEA588F69630472DA6D893FF /* Kanit-Regular.ttf */ = {isa = PBXFileReference; name = "Kanit-Regular.ttf"; path = "../assets/fonts/Kanit-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		516C0585964E4DF5A3537110 /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; name = "Kanit-SemiBold.ttf"; path = "../assets/fonts/Kanit-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED5A09301A674E61BA427566 /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-SemiBoldItalic.ttf"; path = "../assets/fonts/Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6263A4EF223540FC90917217 /* Kanit-Thin.ttf */ = {isa = PBXFileReference; name = "Kanit-Thin.ttf"; path = "../assets/fonts/Kanit-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8CB6DAD91C848A6A5730773 /* Kanit-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-ThinItalic.ttf"; path = "../assets/fonts/Kanit-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +415,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				764B33B996134E32B4AF18DF /* libRNI18n.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +432,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				E7CCABEF2606420CBC8FE4C1 /* libRNI18n-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +606,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				6D0253B91106430996B7E954 /* RNI18n.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -585,6 +628,7 @@
 				00E356EF1AD99517003FC87E /* Botnoi_AppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				B19F41E0A1874ED9B112C727 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -610,6 +654,32 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		B19F41E0A1874ED9B112C727 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1EA1CA602EE3407AADA3EBCD /* Kanit-Black.ttf */,
+				FAFDCF4C0B4041B683E64FE7 /* Kanit-BlackItalic.ttf */,
+				863EFE67FE354C9EB33AEA72 /* Kanit-Bold.ttf */,
+				9DCC50A744014CA4A77EC3DD /* Kanit-BoldItalic.ttf */,
+				FA07B6812B2F4B80B8F6301C /* Kanit-ExtraBold.ttf */,
+				C387CA8BB14945758EC2E516 /* Kanit-ExtraBoldItalic.ttf */,
+				C644A070145A40448B9278F6 /* Kanit-ExtraLight.ttf */,
+				AD1C89B4854B42AE86710180 /* Kanit-ExtraLightItalic.ttf */,
+				3246A665D1C4489492229F13 /* Kanit-Italic.ttf */,
+				663FF6543A0F439AA8360AF2 /* Kanit-Light.ttf */,
+				A17961B6A581456083119E77 /* Kanit-LightItalic.ttf */,
+				352DC3D569D0431F8708B9FA /* Kanit-Medium.ttf */,
+				B8092E40CD85468E8C768163 /* Kanit-MediumItalic.ttf */,
+				EEA588F69630472DA6D893FF /* Kanit-Regular.ttf */,
+				516C0585964E4DF5A3537110 /* Kanit-SemiBold.ttf */,
+				ED5A09301A674E61BA427566 /* Kanit-SemiBoldItalic.ttf */,
+				6263A4EF223540FC90917217 /* Kanit-Thin.ttf */,
+				A8CB6DAD91C848A6A5730773 /* Kanit-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -692,7 +762,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1057,6 +1127,24 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				060EC1A31C674D23B560893F /* Kanit-Black.ttf in Resources */,
+				550C394CDA56494CBDE287C8 /* Kanit-BlackItalic.ttf in Resources */,
+				1C53DAFF0C474E0A8F84F3DD /* Kanit-Bold.ttf in Resources */,
+				65E7D88385454A54A1E09334 /* Kanit-BoldItalic.ttf in Resources */,
+				2D86F0F72B7449139A0106A9 /* Kanit-ExtraBold.ttf in Resources */,
+				82B5C5A268DA4F23A2A3F36E /* Kanit-ExtraBoldItalic.ttf in Resources */,
+				0DDB15633E304FACB358CF6D /* Kanit-ExtraLight.ttf in Resources */,
+				C1B942FDFD424617AE8A13FD /* Kanit-ExtraLightItalic.ttf in Resources */,
+				6CAA5B8684414F259D401C87 /* Kanit-Italic.ttf in Resources */,
+				D4FCBDF9ED474886B17352DC /* Kanit-Light.ttf in Resources */,
+				7FDE7D313ADE4435A5F390ED /* Kanit-LightItalic.ttf in Resources */,
+				E01F4E3FF88F456FB2B0260D /* Kanit-Medium.ttf in Resources */,
+				70B26E3945C6416DA463B3CC /* Kanit-MediumItalic.ttf in Resources */,
+				E54A06B28AD04F148125927B /* Kanit-Regular.ttf in Resources */,
+				F4BE0AE2AD6E4EACAE1633AC /* Kanit-SemiBold.ttf in Resources */,
+				D586DA457A89407C973CDC10 /* Kanit-SemiBoldItalic.ttf in Resources */,
+				FFC4D3C329B741D79D909023 /* Kanit-Thin.ttf in Resources */,
+				74C83796E9B44CF4A284F91C /* Kanit-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1189,6 +1277,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botnoi_App.app/Botnoi_App";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Debug;
 		};
@@ -1207,6 +1304,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botnoi_App.app/Botnoi_App";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Release;
 		};
@@ -1226,6 +1332,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Botnoi_App;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Debug;
 		};
@@ -1244,6 +1354,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Botnoi_App;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Release;
 		};
@@ -1270,6 +1384,15 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Debug;
 		};
@@ -1296,6 +1419,15 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Release;
 		};
@@ -1321,6 +1453,15 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botnoi_App-tvOS.app/Botnoi_App-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Debug;
 		};
@@ -1346,6 +1487,15 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botnoi_App-tvOS.app/Botnoi_App-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+				);
 			};
 			name = Release;
 		};
