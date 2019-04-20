@@ -14,7 +14,7 @@ import {
 import bg from '../Images/176.png'
 import bg2 from '../Images/holiday.jpg'
 import I18n from '../component/I18n';
-
+import firebase from '../component/Firebase';
 I18n.locale = 'th';
 export default class LoggedOut extends Component {
     constructor(props) {
@@ -42,43 +42,6 @@ export default class LoggedOut extends Component {
         return (
 
             <ImageBackground source={bg2} style={styles.wrapper}>
-
-                {/* <View
-                        style={{
-                        flexDirection: 'row',
-                        justifyContent: 'flex-end',
-                        margin: 6.5,
-                        height: 30,
-                        width: 62,
-                        backgroundColor: 'white',
-                        borderRadius: 25,
-                        borderWidth: 1,
-                        borderColor: 'white'
-                    }}>
-
-                        <TouchableOpacity>
-                            <Image
-                                source={require('../Images/UK.png')}
-                                style={{
-                                marginTop: 1.5,
-                                width: 25,
-                                height: 25,
-                                borderRadius: 35,
-                                marginRight: 10
-                            }}></Image>
-                        </TouchableOpacity>
-
-                        <TouchableOpacity>
-                            <Image
-                                source={require('../Images/TH.png')}
-                                style={{
-                                marginTop: 1.5,
-                                width: 25,
-                                height: 25,
-                                borderRadius: 35
-                            }}></Image>
-                        </TouchableOpacity>
-                    </View> */}
 
                 <View style={styles.Login}>
                     <Image source={require('../Images/botnoi.png')} style={styles.Image}></Image>
@@ -169,7 +132,6 @@ const styles = StyleSheet.create({
         fontFamily: "Kanit-Regular",
         alignItems: 'center',
         color: '#39d5d5',
-        fontWeight: '400',
         backgroundColor: 'white',
         borderRadius: 10,
         margin: 5

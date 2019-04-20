@@ -6,6 +6,6 @@ export default {
   Password:'รหัสผ่าน',
   Create:'สร้างบัญชี',
   Facebook:'เข้าสู่ระบบ ด้วย เฟซบุ๊ค',
-  Have_Account:'มีบัญชีแล้ว? เข้าสู่ระบบ'
-  
+  Have_Account:'มีบัญชีแล้ว? เข้าสู่ระบบ',
+  Login:'เข้าสู่ระบบ'
 };

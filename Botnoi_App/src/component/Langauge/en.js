@@ -6,6 +6,6 @@ export default {
   Password:'Password',
   Create:'Create account',
   Facebook:'Login with Facebook',
-  Have_Account:'Already have account? Login'
-
+  Have_Account:'Already have account? Login',
+  Login:'Login'
 };

@@ -59,6 +59,7 @@ def faceRecog():
     #print(unknown_image)
     encoding_image = load_image(unknown_image)
     image_db = load_database()
+    
     image_compare = compare_image(encoding_image,image_db)
     print(image_compare)
     result = check_result(image_compare)
